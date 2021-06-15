@@ -21,7 +21,7 @@ provider "azurerm" {
   tenant_id       = var.tenant_id
 }
 
-resource "azurerm_resource_group" "myresourcegroup" {
+resource "azurerm_resource_group" "demo-rg" {
   name     = "${var.prefix}-hashiapp-demo"
   location = var.location
 }
