@@ -1,5 +1,5 @@
 output "rg_name" {
-  value = azurerm_resource_group.demo-rg.name
+  value = azurerm_resource_group.demo_rg.name
 }
 
 output "tfver" {
