@@ -1,11 +1,4 @@
 terraform {
-  backend "remote" {
-    organization = "TPMM-Org"
-
-    workspaces {
-      name = "hashiapp-azure-resourcegroup"
-    }
-  }
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
