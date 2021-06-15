@@ -19,6 +19,11 @@ variable "prefix" {
   default     = "ruddy"
 }
 
+variable "location" {
+  description = "Azure location to deploy resources."
+  default     = "centralus"
+}
+
 variable "tfver" {
   description = "Terraform version in use."
 }
